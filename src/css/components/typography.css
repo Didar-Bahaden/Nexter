@@ -87,3 +87,16 @@
 .par-grey-light-2 {
   color: var(--color-grey-light-2);
 }
+
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
+.capi {
+  text-transform: capitalize;
+}
+.italic {
+  font-style: italic;
+}
