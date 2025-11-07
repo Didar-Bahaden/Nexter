@@ -1,8 +1,16 @@
 .btn {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   background-color: var(--primary-color);
   color: var(--color-grey-light-1);
   border: none;
   padding: 1.6rem 3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: var(--primary-dark-color);
+  }
 }
