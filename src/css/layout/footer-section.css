@@ -1,0 +1,43 @@
+.footer-section {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  gap: 5rem;
+  .links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+  }
+  .copy {
+    margin: 0 auto;
+    max-width: 80rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fffefe;
+    text-transform: capitalize;
+    display: block;
+    line-height: 1.5;
+  }
+
+  .anchor,
+  .anchor:link,
+  .anchor:visited {
+    padding: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.8rem;
+    transition: background-color 0.3s ease;
+    /* white-space: nowrap; */
+    &:hover,
+    &:active {
+      text-decoration: underline;
+      background-color: var(--secondary-light-color);
+    }
+  }
+}

@@ -4,12 +4,12 @@
   overflow: scroll;
   display: grid;
 
-  row-gap: 16.6rem;
+  row-gap: 20rem;
   grid-template-columns:
     minmax(6rem, 1fr)
     repeat(8, minmax(min-content, 13rem))
     minmax(6rem, 1fr);
-  grid-template-rows: 80vh repeat(4, min-content) 30vh;
+  grid-template-rows: 100vh repeat(5, min-content);
 }
 
 .header-section {
@@ -21,12 +21,14 @@
 .story-section {
   grid-column: 2/10;
 }
-.home {
+.home-section {
   grid-column: 2/10;
 }
-.gallery {
-  grid-column: 2/10;
-}
-.footer {
+.gallery-section {
   grid-column: 1/-1;
+}
+.footer-section {
+  background-color: var(--secondary-color);
+  grid-column: 1/-1;
+  margin-top: -20rem;
 }
