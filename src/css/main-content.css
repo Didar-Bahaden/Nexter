@@ -1,6 +1,6 @@
 .main-content {
   background-color: var(--color-grey-light-1);
-
+  scroll-behavior: smooth;
   overflow: scroll;
   display: grid;
 

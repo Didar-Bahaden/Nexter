@@ -9,7 +9,8 @@
 .menu {
   width: 5rem;
   height: 5rem;
-
+  background-color: var(--primary-color);
+  border: none;
   cursor: pointer;
   display: flex;
   align-items: center;

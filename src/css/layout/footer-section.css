@@ -6,9 +6,29 @@
   gap: 5rem;
   .links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-template-rows: auto;
+    gap: 1rem;
+    align-items: center;
     grid-auto-flow: row;
+  }
+
+  .anchor:link,
+  .anchor:visited {
+    padding: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.8rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    &:hover,
+    &:active {
+      transform: translateY(-1rem);
+      background-color: var(--secondary-light-color);
+    }
   }
   .copy {
     margin: 0 auto;
@@ -20,24 +40,18 @@
     display: block;
     line-height: 1.5;
   }
-
-  .anchor,
-  .anchor:link,
-  .anchor:visited {
-    padding: 2rem;
-    font-size: 1.3rem;
-    text-decoration: none;
+  .my-pro:link,
+  .my-pro:visited {
     text-align: center;
+    margin-left: 1.6rem;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--primary-color);
     display: inline-block;
     line-height: 1.8rem;
-    transition: background-color 0.3s ease;
-    /* white-space: nowrap; */
+    transition: transform 0.3s ease;
     &:hover,
     &:active {
-      text-decoration: underline;
-      background-color: var(--secondary-light-color);
+      transform: scale(1.1) rotate(-2deg);
     }
   }
 }
