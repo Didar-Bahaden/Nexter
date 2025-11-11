@@ -1,7 +1,8 @@
 .main-content {
   background-color: var(--color-grey-light-1);
   scroll-behavior: smooth;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   display: grid;
 
   row-gap: 20rem;
@@ -31,10 +32,4 @@
   background-color: var(--secondary-color);
   grid-column: 1/-1;
   margin-top: -20rem;
-}
-
-@media only screen and (max-width: 590px) {
-  html {
-    /* font-size: 40%; */
-  }
 }

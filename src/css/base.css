@@ -1,10 +1,20 @@
 /* GENERAL */
-@import url();
+@import url(./general.css);
+@import url(./main-content.css);
 /* LAYOUT */
-@import url();
+@import url(./layout/header-section.css);
+@import url(./layout/fetured-section.css);
+@import url(./layout/story-section.css);
+@import url(./layout/home-section.css);
+@import url(./layout/gallery-section.css);
+@import url(./layout/footer-section.css);
+@import url(./layout/sidebar.css);
 /* COMPONENT */
-@import url();
+@import url(./components/typography.css);
+@import url(./components/buttons.css);
+@import url(./components/spacing-system.css);
+
 /* VARIABLE */
-@import url();
+@import url(./variable.css);
 
 /* To make a responsive website you have top set the medias inside the selector itself and the breakpoint after the design wint be possible  */

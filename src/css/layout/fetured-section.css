@@ -5,6 +5,10 @@
   column-gap: 3rem;
   row-gap: 6rem;
 
+  @media only screen and (max-width: 585px) {
+    transform: translateX(-7rem);
+  }
+
   .fetured-item {
     display: grid;
     grid-template-columns: auto 1fr;
