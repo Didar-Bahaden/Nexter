@@ -18,3 +18,4 @@
 @import url(./variable.css);
 
 /* To make a responsive website you have top set the medias inside the selector itself and the breakpoint after the design wint be possible  */
+/* The imports have been moved to the HTML file to ensure proper loading on Vercel */
