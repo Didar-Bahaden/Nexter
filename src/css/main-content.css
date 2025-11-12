@@ -18,11 +18,14 @@
 }
 .fetured-section {
   grid-column: 2/10;
+  padding: 10rem 0;
 }
 .story-section {
-  grid-column: 2/10;
+  padding: 10rem 0;
+  grid-column: 1/-1;
 }
 .home-section {
+  padding: 3rem 0;
   grid-column: 2/10;
 }
 .gallery-section {

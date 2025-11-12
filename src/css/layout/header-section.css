@@ -11,8 +11,8 @@
 
 .hero {
   height: 100vh;
-
   padding: 10rem 6rem;
+
   background-image: linear-gradient(var(--secondary-color-custom-for-header)),
     url(../../../media/img/pexels-antonio-cuellar-2825974-4366060.jpg);
   background-size: cover;
